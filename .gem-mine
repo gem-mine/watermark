@@ -1,0 +1,11 @@
+{
+  "version": "3.5.0",
+  "template_id": "sdk",
+  "name": "watermark",
+  "path": "D:\\Project\\watermark",
+  "env": "{\"template_version\":\"2.16.3\",\"npm_version\":\"6.14.6\",\"node_version\":\"v12.18.3\"}",
+  "user": "GYL",
+  "email": "sehun@0412.com",
+  "choice": "{\"templateId\":\"sdk\",\"features\":[\"ts\",\"jest\"]}",
+  "project_id": "2fe67830-33c1-11eb-b4a8-651cc54bf255_1606819039027"
+}
