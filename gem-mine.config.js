@@ -1,4 +1,4 @@
 module.exports = {
   filenameHashing: false,
-  target: ['cjs']
+  target: ['umd', 'cjs']
 }

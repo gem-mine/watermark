@@ -1,14 +1,19 @@
 {
-  "name": "watermark",
-  "version": "1.0.0",
+  "name": "@gem-mine/watermark",
+  "version": "1.0.0-beta.1",
   "scripts": {
     "build": "gmsr build",
     "dev": "gmsr build --watch",
     "lint": "gmsr lint",
     "lint:fix": "gmsr lint --fix",
     "start": "gmsr dev",
-    "test:unit": "gmsr test:unit"
+    "test": "gmsr test:unit"
   },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.cjs.js",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@gem-mine/babel-preset-app": "^2.4.5",
     "@gem-mine/cli-plugin-eslint": "^3.2.4",
